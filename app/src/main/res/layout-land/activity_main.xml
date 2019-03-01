@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools">
 
+
     <fragment
         android:id="@+id/fragment_buttons"
         android:layout_width="wrap_content"

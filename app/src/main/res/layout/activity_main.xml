@@ -7,42 +7,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="wrap_content"
+    <fragment
+        android:id="@+id/buttons_fragment"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Btn_1"
-        android:layout_margin="20dp"/>
+        android:name="com.example.appwithfragment.fragments.ButtonsFragment"
+        tools:layout="@layout/fragment_buttons"/>
 
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Btn_2"
-        android:layout_margin="20dp"/>
 
-    <CheckBox
-        android:id="@+id/checkbox"
-        android:layout_width="wrap_content"
+    <fragment
+        android:id="@+id/checkboxes_fragment"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New component 1"
-        android:layout_gravity="center_horizontal"
-        android:checked="false"/>
+        android:name="com.example.appwithfragment.fragments.CheckBoxesFragment"
+        tools:layout="@layout/fragment_checkboxes"/>
 
-    <CheckBox
-        android:id="@+id/checkbox2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New component 2"
-        android:layout_gravity="center_horizontal"
-        android:checked="false"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
+    <fragment
+        android:id="@+id/image"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/android_img"
-        android:layout_marginTop="20dp"/>
+        android:name="com.example.appwithfragment.fragments.ImageFragment"
+        tools:layout="@layout/fragment_image"/>
 
 </android.support.v7.widget.LinearLayoutCompat>

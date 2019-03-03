@@ -8,10 +8,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
+import android.widget.TextView;
 
 import com.example.appwithfragment.R;
 
 public class TextViewFragment extends Fragment {
+
+    TextView textView;
 
     @Nullable
     @Override
